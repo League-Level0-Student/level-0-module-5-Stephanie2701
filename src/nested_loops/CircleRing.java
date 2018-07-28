@@ -11,7 +11,7 @@ public class CircleRing {
 
         // 1. Make a new Robot
 
-
+Robot o=new Robot();
        //  2. Set your robot’s position to x=150 and y=200
 
         // 3. Put the robot's pen down
