@@ -15,7 +15,7 @@ int j;
 		}
 		
 
-		else if (num / i ==j ) {
+		else if (num / i == i ) {
 				System.out.println("composite number");
 			}
 
