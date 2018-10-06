@@ -5,21 +5,22 @@ public class primeornot {
 	public static void main(String[] args) {
 
 		String p = JOptionPane.showInputDialog("Choose a number");
-int j;
 		int num = Integer.parseInt(p);
-		for (int i = 1; i < 100; i++) {
+		for (int i = 2; i < num; i++) {
 
-		if (num / num == 0 || num / i == 0) {
-			System.out.println("it's a prime");
-
+		if ( num % i == 0) {
+			System.out.println("composite number");
+			System.exit(0);
 		}
 		
-
-		else if (num / i == i ) {
-				System.out.println("composite number");
-			}
-
 		}
+		
+		
+				System.out.println("it's a prime ");
+			
+
+		
+		
 
 	}
 
