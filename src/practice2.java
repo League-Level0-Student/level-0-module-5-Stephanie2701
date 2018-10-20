@@ -50,13 +50,20 @@ public static void main(String[] args) {
 	//	System.out.println("you better buy a boat");
 	//}
 		
-	for (int i = 1; i < 100; i++) {
-		if(i%7==0) {
-			System.out.println(i);
-		}
+	//for (int i = 1; i < 100; i++) {
+		//if(i%7==0) {
+			//System.out.println(i);
+		//}
 		
-	}	
+	//}	
 	
+	
+	
+	private static void multiply(x, y) {
+		System.out.println(x*y);
+		
+		
+	}
 }
 }
 
